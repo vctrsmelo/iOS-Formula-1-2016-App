@@ -3,6 +3,7 @@ An app, developed using objective-c, to present the drivers of formula 1 2016 se
 
 Designer:
 - Bruno Quadros
+
 Developers:
 - Gabriel Machado
 - Victor S. Melo
