@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D064E96F1E94057400E8CDF4 /* GVBDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D064E96E1E94057400E8CDF4 /* GVBDetailsViewController.m */; };
+		EEDF8F911E92DE9400B82B6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDF8F901E92DE9400B82B6E /* main.m */; };
+		EEDF8F941E92DE9400B82B6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDF8F931E92DE9400B82B6E /* AppDelegate.m */; };
+		EEDF8F971E92DE9400B82B6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDF8F961E92DE9400B82B6E /* ViewController.m */; };
+		EEDF8F9A1E92DE9400B82B6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDF8F981E92DE9400B82B6E /* Main.storyboard */; };
+		EEDF8F9C1E92DE9400B82B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDF8F9B1E92DE9400B82B6E /* Assets.xcassets */; };
+		EEDF8F9F1E92DE9400B82B6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDF8F9D1E92DE9400B82B6E /* LaunchScreen.storyboard */; };
+		EEDF8FAA1E92DE9400B82B6E /* GVBFormula1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDF8FA91E92DE9400B82B6E /* GVBFormula1Tests.m */; };
+		EEDF8FB51E92DE9400B82B6E /* GVBFormula1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDF8FB41E92DE9400B82B6E /* GVBFormula1UITests.m */; };
+		EEDF8FC41E92E10F00B82B6E /* GVBDriverTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDF8FC31E92E10F00B82B6E /* GVBDriverTableViewCell.m */; };
+		EEDF8FC71E92E29000B82B6E /* GVBDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDF8FC61E92E29000B82B6E /* GVBDriver.m */; };
+		EEDF8FCA1E93DD6D00B82B6E /* GVBDriverModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDF8FC91E93DD6D00B82B6E /* GVBDriverModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEDF8FA61E92DE9400B82B6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDF8F841E92DE9400B82B6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEDF8F8B1E92DE9400B82B6E;
+			remoteInfo = GVBFormula1;
+		};
+		EEDF8FB11E92DE9400B82B6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDF8F841E92DE9400B82B6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEDF8F8B1E92DE9400B82B6E;
+			remoteInfo = GVBFormula1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D064E96D1E94057400E8CDF4 /* GVBDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVBDetailsViewController.h; sourceTree = "<group>"; };
+		D064E96E1E94057400E8CDF4 /* GVBDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVBDetailsViewController.m; sourceTree = "<group>"; };
+		EEDF8F8C1E92DE9400B82B6E /* GVBFormula1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GVBFormula1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDF8F901E92DE9400B82B6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEDF8F921E92DE9400B82B6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEDF8F931E92DE9400B82B6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEDF8F951E92DE9400B82B6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEDF8F961E92DE9400B82B6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEDF8F991E92DE9400B82B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEDF8F9B1E92DE9400B82B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEDF8F9E1E92DE9400B82B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEDF8FA01E92DE9400B82B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEDF8FA51E92DE9400B82B6E /* GVBFormula1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GVBFormula1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDF8FA91E92DE9400B82B6E /* GVBFormula1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GVBFormula1Tests.m; sourceTree = "<group>"; };
+		EEDF8FAB1E92DE9400B82B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEDF8FB01E92DE9400B82B6E /* GVBFormula1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GVBFormula1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDF8FB41E92DE9400B82B6E /* GVBFormula1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GVBFormula1UITests.m; sourceTree = "<group>"; };
+		EEDF8FB61E92DE9400B82B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEDF8FC21E92E10F00B82B6E /* GVBDriverTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVBDriverTableViewCell.h; sourceTree = "<group>"; };
+		EEDF8FC31E92E10F00B82B6E /* GVBDriverTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVBDriverTableViewCell.m; sourceTree = "<group>"; };
+		EEDF8FC51E92E29000B82B6E /* GVBDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVBDriver.h; sourceTree = "<group>"; };
+		EEDF8FC61E92E29000B82B6E /* GVBDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVBDriver.m; sourceTree = "<group>"; };
+		EEDF8FC81E93DD6D00B82B6E /* GVBDriverModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVBDriverModel.h; sourceTree = "<group>"; };
+		EEDF8FC91E93DD6D00B82B6E /* GVBDriverModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVBDriverModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEDF8F891E92DE9400B82B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDF8FA21E92DE9400B82B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDF8FAD1E92DE9400B82B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEDF8F831E92DE9400B82B6E = {
+			isa = PBXGroup;
+			children = (
+				EEDF8F8E1E92DE9400B82B6E /* GVBFormula1 */,
+				EEDF8FA81E92DE9400B82B6E /* GVBFormula1Tests */,
+				EEDF8FB31E92DE9400B82B6E /* GVBFormula1UITests */,
+				EEDF8F8D1E92DE9400B82B6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEDF8F8D1E92DE9400B82B6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEDF8F8C1E92DE9400B82B6E /* GVBFormula1.app */,
+				EEDF8FA51E92DE9400B82B6E /* GVBFormula1Tests.xctest */,
+				EEDF8FB01E92DE9400B82B6E /* GVBFormula1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEDF8F8E1E92DE9400B82B6E /* GVBFormula1 */ = {
+			isa = PBXGroup;
+			children = (
+				EEDF8F921E92DE9400B82B6E /* AppDelegate.h */,
+				EEDF8F931E92DE9400B82B6E /* AppDelegate.m */,
+				EEDF8F951E92DE9400B82B6E /* ViewController.h */,
+				EEDF8F961E92DE9400B82B6E /* ViewController.m */,
+				D064E96D1E94057400E8CDF4 /* GVBDetailsViewController.h */,
+				D064E96E1E94057400E8CDF4 /* GVBDetailsViewController.m */,
+				EEDF8F981E92DE9400B82B6E /* Main.storyboard */,
+				EEDF8F9B1E92DE9400B82B6E /* Assets.xcassets */,
+				EEDF8F9D1E92DE9400B82B6E /* LaunchScreen.storyboard */,
+				EEDF8FA01E92DE9400B82B6E /* Info.plist */,
+				EEDF8F8F1E92DE9400B82B6E /* Supporting Files */,
+				EEDF8FC21E92E10F00B82B6E /* GVBDriverTableViewCell.h */,
+				EEDF8FC31E92E10F00B82B6E /* GVBDriverTableViewCell.m */,
+				EEDF8FC51E92E29000B82B6E /* GVBDriver.h */,
+				EEDF8FC61E92E29000B82B6E /* GVBDriver.m */,
+				EEDF8FC81E93DD6D00B82B6E /* GVBDriverModel.h */,
+				EEDF8FC91E93DD6D00B82B6E /* GVBDriverModel.m */,
+			);
+			path = GVBFormula1;
+			sourceTree = "<group>";
+		};
+		EEDF8F8F1E92DE9400B82B6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEDF8F901E92DE9400B82B6E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEDF8FA81E92DE9400B82B6E /* GVBFormula1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EEDF8FA91E92DE9400B82B6E /* GVBFormula1Tests.m */,
+				EEDF8FAB1E92DE9400B82B6E /* Info.plist */,
+			);
+			path = GVBFormula1Tests;
+			sourceTree = "<group>";
+		};
+		EEDF8FB31E92DE9400B82B6E /* GVBFormula1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEDF8FB41E92DE9400B82B6E /* GVBFormula1UITests.m */,
+				EEDF8FB61E92DE9400B82B6E /* Info.plist */,
+			);
+			path = GVBFormula1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEDF8F8B1E92DE9400B82B6E /* GVBFormula1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDF8FB91E92DE9400B82B6E /* Build configuration list for PBXNativeTarget "GVBFormula1" */;
+			buildPhases = (
+				EEDF8F881E92DE9400B82B6E /* Sources */,
+				EEDF8F891E92DE9400B82B6E /* Frameworks */,
+				EEDF8F8A1E92DE9400B82B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GVBFormula1;
+			productName = GVBFormula1;
+			productReference = EEDF8F8C1E92DE9400B82B6E /* GVBFormula1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEDF8FA41E92DE9400B82B6E /* GVBFormula1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDF8FBC1E92DE9400B82B6E /* Build configuration list for PBXNativeTarget "GVBFormula1Tests" */;
+			buildPhases = (
+				EEDF8FA11E92DE9400B82B6E /* Sources */,
+				EEDF8FA21E92DE9400B82B6E /* Frameworks */,
+				EEDF8FA31E92DE9400B82B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEDF8FA71E92DE9400B82B6E /* PBXTargetDependency */,
+			);
+			name = GVBFormula1Tests;
+			productName = GVBFormula1Tests;
+			productReference = EEDF8FA51E92DE9400B82B6E /* GVBFormula1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEDF8FAF1E92DE9400B82B6E /* GVBFormula1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDF8FBF1E92DE9400B82B6E /* Build configuration list for PBXNativeTarget "GVBFormula1UITests" */;
+			buildPhases = (
+				EEDF8FAC1E92DE9400B82B6E /* Sources */,
+				EEDF8FAD1E92DE9400B82B6E /* Frameworks */,
+				EEDF8FAE1E92DE9400B82B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEDF8FB21E92DE9400B82B6E /* PBXTargetDependency */,
+			);
+			name = GVBFormula1UITests;
+			productName = GVBFormula1UITests;
+			productReference = EEDF8FB01E92DE9400B82B6E /* GVBFormula1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEDF8F841E92DE9400B82B6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Victor S Melo";
+				TargetAttributes = {
+					EEDF8F8B1E92DE9400B82B6E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y93HUJS49V;
+						ProvisioningStyle = Automatic;
+					};
+					EEDF8FA41E92DE9400B82B6E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y93HUJS49V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEDF8F8B1E92DE9400B82B6E;
+					};
+					EEDF8FAF1E92DE9400B82B6E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y93HUJS49V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEDF8F8B1E92DE9400B82B6E;
+					};
+				};
+			};
+			buildConfigurationList = EEDF8F871E92DE9400B82B6E /* Build configuration list for PBXProject "GVBFormula1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEDF8F831E92DE9400B82B6E;
+			productRefGroup = EEDF8F8D1E92DE9400B82B6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEDF8F8B1E92DE9400B82B6E /* GVBFormula1 */,
+				EEDF8FA41E92DE9400B82B6E /* GVBFormula1Tests */,
+				EEDF8FAF1E92DE9400B82B6E /* GVBFormula1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEDF8F8A1E92DE9400B82B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDF8F9F1E92DE9400B82B6E /* LaunchScreen.storyboard in Resources */,
+				EEDF8F9C1E92DE9400B82B6E /* Assets.xcassets in Resources */,
+				EEDF8F9A1E92DE9400B82B6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDF8FA31E92DE9400B82B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDF8FAE1E92DE9400B82B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEDF8F881E92DE9400B82B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDF8F971E92DE9400B82B6E /* ViewController.m in Sources */,
+				EEDF8FC41E92E10F00B82B6E /* GVBDriverTableViewCell.m in Sources */,
+				EEDF8F941E92DE9400B82B6E /* AppDelegate.m in Sources */,
+				EEDF8FCA1E93DD6D00B82B6E /* GVBDriverModel.m in Sources */,
+				EEDF8F911E92DE9400B82B6E /* main.m in Sources */,
+				EEDF8FC71E92E29000B82B6E /* GVBDriver.m in Sources */,
+				D064E96F1E94057400E8CDF4 /* GVBDetailsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDF8FA11E92DE9400B82B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDF8FAA1E92DE9400B82B6E /* GVBFormula1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDF8FAC1E92DE9400B82B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDF8FB51E92DE9400B82B6E /* GVBFormula1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEDF8FA71E92DE9400B82B6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEDF8F8B1E92DE9400B82B6E /* GVBFormula1 */;
+			targetProxy = EEDF8FA61E92DE9400B82B6E /* PBXContainerItemProxy */;
+		};
+		EEDF8FB21E92DE9400B82B6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEDF8F8B1E92DE9400B82B6E /* GVBFormula1 */;
+			targetProxy = EEDF8FB11E92DE9400B82B6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEDF8F981E92DE9400B82B6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEDF8F991E92DE9400B82B6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEDF8F9D1E92DE9400B82B6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEDF8F9E1E92DE9400B82B6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEDF8FB71E92DE9400B82B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEDF8FB81E92DE9400B82B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEDF8FBA1E92DE9400B82B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y93HUJS49V;
+				INFOPLIST_FILE = GVBFormula1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.2017.victor.melo.GVBFormula1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEDF8FBB1E92DE9400B82B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y93HUJS49V;
+				INFOPLIST_FILE = GVBFormula1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.2017.victor.melo.GVBFormula1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEDF8FBD1E92DE9400B82B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y93HUJS49V;
+				INFOPLIST_FILE = GVBFormula1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.2017.victor.melo.GVBFormula1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GVBFormula1.app/GVBFormula1";
+			};
+			name = Debug;
+		};
+		EEDF8FBE1E92DE9400B82B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y93HUJS49V;
+				INFOPLIST_FILE = GVBFormula1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.2017.victor.melo.GVBFormula1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GVBFormula1.app/GVBFormula1";
+			};
+			name = Release;
+		};
+		EEDF8FC01E92DE9400B82B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y93HUJS49V;
+				INFOPLIST_FILE = GVBFormula1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.2017.victor.melo.GVBFormula1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GVBFormula1;
+			};
+			name = Debug;
+		};
+		EEDF8FC11E92DE9400B82B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y93HUJS49V;
+				INFOPLIST_FILE = GVBFormula1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.2017.victor.melo.GVBFormula1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GVBFormula1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEDF8F871E92DE9400B82B6E /* Build configuration list for PBXProject "GVBFormula1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDF8FB71E92DE9400B82B6E /* Debug */,
+				EEDF8FB81E92DE9400B82B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEDF8FB91E92DE9400B82B6E /* Build configuration list for PBXNativeTarget "GVBFormula1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDF8FBA1E92DE9400B82B6E /* Debug */,
+				EEDF8FBB1E92DE9400B82B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEDF8FBC1E92DE9400B82B6E /* Build configuration list for PBXNativeTarget "GVBFormula1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDF8FBD1E92DE9400B82B6E /* Debug */,
+				EEDF8FBE1E92DE9400B82B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEDF8FBF1E92DE9400B82B6E /* Build configuration list for PBXNativeTarget "GVBFormula1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDF8FC01E92DE9400B82B6E /* Debug */,
+				EEDF8FC11E92DE9400B82B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEDF8F841E92DE9400B82B6E /* Project object */;
+}
